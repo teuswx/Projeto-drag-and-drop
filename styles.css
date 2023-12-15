@@ -1,0 +1,158 @@
+body{
+  background-color: grey;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .drag_item {
+    width: 100px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+  
+  .drop_item {
+      width: 120px;
+      height: 160px;
+      border-radius: 5px;
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center;
+      
+  }
+  
+  
+  .genio1 {
+    display: flex;
+    padding: 1px;
+    height: 200px;
+    width: 150px;
+    background-color: goldenrod;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .campo1 {
+    padding: 1px;
+    height: 300px;
+    width: 750px;
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .cards1.place {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .cards1.hands {
+    height: 120px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .deck1 {
+    display: flex;
+    padding: 1px;
+    height: 200px;
+    width: 150px;
+    background-color: goldenrod;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .genio2 {
+    display: flex;
+    padding: 1px;
+    height: 200px;
+    width: 150px;
+    background-color: goldenrod;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .campo2 {
+    padding: 1px;
+    height: 300px;
+    width: 750px;
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    justify-items: center;
+    align-items: center;
+  
+  }
+  
+  
+  
+  .cards2.place {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .cards2.hands {
+    height: 120px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .deck2 {
+    display: flex;
+    padding: 1px;
+    height: 200px;
+    width: 150px;
+    background-color: goldenrod;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  .drag {
+    font-size: 36px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+.invisible {
+  display: none;
+}
+
+.enter {
+  border: dashed 2px gray;
+}
